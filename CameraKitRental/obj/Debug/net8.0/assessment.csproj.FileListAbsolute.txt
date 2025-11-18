@@ -1,0 +1,15 @@
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.GeneratedMSBuildEditorConfig.editorconfig
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.AssemblyInfoInputs.cache
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.AssemblyInfo.cs
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.csproj.CoreCompileInputs.cache
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.sourcelink.json
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/bin/Debug/net8.0/assessment
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/bin/Debug/net8.0/assessment.deps.json
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/bin/Debug/net8.0/assessment.runtimeconfig.json
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/bin/Debug/net8.0/assessment.dll
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/bin/Debug/net8.0/assessment.pdb
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.dll
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/refint/assessment.dll
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.pdb
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/assessment.genruntimeconfig.cache
+/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/Debug/net8.0/ref/assessment.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eAUn5N91nw2IF2aWJlFBof1GOq8uBIKQk4witnUDjW/e/7SQ1C5xibT4sz6kBrYsc+ko1w+u4BY5QaEgzz8h3Q==",
+  "dgSpecHash": "Y8TYuz0wlnYWXexoDNvobF8pqj1SqMpi7dGkMDajmFWizvo18EMzJ6zKnOZk4HBe47BA/2wf3ZVQ05SeaDdf5Q==",
   "success": true,
-  "projectFilePath": "/home/velvet_logic/Desktop/Coding/C#/cameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental.Tests/CameraKitRental.Tests.csproj",
+  "projectFilePath": "/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental.Tests/CameraKitRental.Tests.csproj",
   "expectedPackageFiles": [
     "/home/velvet_logic/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/home/velvet_logic/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",

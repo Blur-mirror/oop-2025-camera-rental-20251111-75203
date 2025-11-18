@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": []
+  },
+  "packageFolders": {
+    "/home/velvet_logic/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/assessment.csproj",
+      "projectName": "assessment",
+      "projectPath": "/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/assessment.csproj",
+      "packagesPath": "/home/velvet_logic/.nuget/packages/",
+      "outputPath": "/home/velvet_logic/Desktop/Coding/C#/CameraKitRental/oop-2025-camera-rental-20251111-75203/CameraKitRental/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/velvet_logic/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

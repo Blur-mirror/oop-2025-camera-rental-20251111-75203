@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CameraKitRental.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f79fcd6cb52e0c5eabb7d86633c83606590883d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d82ab26d84d7d4635172c1faf7b074f343af639")]
 [assembly: System.Reflection.AssemblyProductAttribute("CameraKitRental.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CameraKitRental.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

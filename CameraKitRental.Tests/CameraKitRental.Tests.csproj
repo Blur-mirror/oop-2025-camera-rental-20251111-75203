@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\assessment.csproj" />
+    <ProjectReference Include="../CameraKitRental/assessment.csproj" />
   </ItemGroup>
 
 </Project>

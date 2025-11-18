@@ -81,6 +81,12 @@ public class CameraKit : RentalItem, IRentable
 
         }
 
+        if (string.IsNullOrEmpty(assetTag) || string.IsNullOrEmpty(kitType))
+        {
+            Console.WriteLine("Error: AssetTag and KitType cannot be empty.\n");
+            throw new ArgumentException("Invalid parameters for CameraKit constructor.");
+        }
+
         AssetTag = assetTag;
         KitType = kitType;
     }
