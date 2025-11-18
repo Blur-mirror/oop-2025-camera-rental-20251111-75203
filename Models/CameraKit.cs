@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace CameraKitRental.Models;
 
-public class CameraKit
+public abstract class RentalItem
 {
-    //adding attributes:
     public string Brand { get; set; } = string.Empty;
     public string Model { get; set; } = string.Empty;
     public double DailyRate { get; set; } = 0.0;
     public bool Booked { get; protected set; } = false;
 
+}
 
-
+public class CameraKit : RentalItem
+{
     public CameraKit()
     {
         Console.WriteLine("CameraKit instance created.\n");
@@ -71,5 +72,5 @@ public class CameraKit
     }
 
     public bool isBooked() => Booked;
-    
+
 }
