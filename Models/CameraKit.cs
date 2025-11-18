@@ -56,6 +56,7 @@ public class CameraKit : RentalItem, IRentable
     public string KitType { get; set; } = string.Empty;
 
 
+
     public double CheckRate() => DailyRate;
 
     public void changeRate(double newRate)
@@ -72,7 +73,7 @@ public class CameraKit : RentalItem, IRentable
     }
 
 
-    public CameraKit(string brand, string model, string AssetTag, string KitType, double dailyRate) : base(brand, model, dailyRate)
+    public CameraKit(string brand, string model, string assetTag, string kitType, double dailyRate) : base(brand, model, dailyRate)
     {
         if (string.IsNullOrEmpty(brand) || (string.IsNullOrEmpty(model)) || (dailyRate <= 0))
         {
@@ -80,13 +81,15 @@ public class CameraKit : RentalItem, IRentable
 
         }
 
+        AssetTag = assetTag;
+        KitType = kitType;
     }
 
     public override void Display()
     {
         Console.WriteLine("\nCameraKit Display Called\n");
         Console.WriteLine(new string('*', 40));
-        Console.WriteLine($"\nBranch: {Brand}, Model: {Model}, Daily Rate: {DailyRate}, Booked: {Booked}\n");
+        Console.WriteLine($"\nBranch: {Brand}, Model: {Model}, Asset Tag: {AssetTag}, Kit Type: {KitType} Daily Rate: {DailyRate}, Booked: {Booked}\n");
     }
 
     public bool Book()
