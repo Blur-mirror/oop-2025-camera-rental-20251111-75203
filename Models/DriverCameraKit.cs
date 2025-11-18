@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CameraKitRental.Models;
 
-public static class DriverCameraKit
+internal static class DriverCameraKit
 {
     public static void Run()
     {
         try
         {
-            CameraKit cameraKit = new CameraKit("Canon", "Model1", 230.33);
+            CameraKit cameraKit = new CameraKit("Canon", "Model1", "Camera 1", "Mirrorless", 230.33);
 
             cameraKit.Display();
 

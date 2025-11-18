@@ -33,7 +33,15 @@ public abstract class RentalItem
 
 public interface IRentable
 {
+    bool Book();
+    void returnKit();
     void Display();
+
+    bool isBooked();
+
+    double CheckRate();
+
+    void changeRate(double newRate);
 }
 
 public class CameraKit : RentalItem, IRentable
@@ -44,7 +52,27 @@ public class CameraKit : RentalItem, IRentable
 
     // }
 
-    public CameraKit(string brand, string model, double dailyRate) : base(brand, model, dailyRate)
+    public string AssetTag { get; set; } = string.Empty;
+    public string KitType { get; set; } = string.Empty;
+
+
+    public double CheckRate() => DailyRate;
+
+    public void changeRate(double newRate)
+    {
+        if (newRate > 0)
+        {
+            DailyRate = newRate;
+            Console.WriteLine($"CameraKit: {Brand} {Model} rate changed to {DailyRate}\n");
+        }
+        else
+        {
+            Console.WriteLine("Error: Daily rate must be positive.\n");
+        }
+    }
+
+
+    public CameraKit(string brand, string model, string AssetTag, string KitType, double dailyRate) : base(brand, model, dailyRate)
     {
         if (string.IsNullOrEmpty(brand) || (string.IsNullOrEmpty(model)) || (dailyRate <= 0))
         {
@@ -61,16 +89,18 @@ public class CameraKit : RentalItem, IRentable
         Console.WriteLine($"\nBranch: {Brand}, Model: {Model}, Daily Rate: {DailyRate}, Booked: {Booked}\n");
     }
 
-    public void Book()
+    public bool Book()
     {
         if (!Booked)
         {
             Booked = true;
             Console.WriteLine($"CameraKit: {Brand} {Model} has been booked.\n");
+            return true;
         }
         else
         {
             Console.WriteLine($"Error: CameraKit: {Brand} {Model} is already booked.\n");
+            return false;
 
         }
     }
@@ -89,5 +119,7 @@ public class CameraKit : RentalItem, IRentable
     }
 
     public bool isBooked() => Booked;
+
+
 
 }
