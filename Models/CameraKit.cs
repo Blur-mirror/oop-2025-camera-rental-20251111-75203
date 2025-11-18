@@ -13,17 +13,7 @@ public abstract class RentalItem
     public double DailyRate { get; set; } = 0.0;
     public bool Booked { get; protected set; } = false;
 
-}
-
-public class CameraKit : RentalItem
-{
-    public CameraKit()
-    {
-        Console.WriteLine("CameraKit instance created.\n");
-
-    }
-
-    public CameraKit(string brand, string model, double dailyRate)
+    protected RentalItem(string brand, string model, double dailyRate)
     {
         if (string.IsNullOrEmpty(brand) || (string.IsNullOrEmpty(model)) || (dailyRate <= 0))
         {
@@ -37,7 +27,34 @@ public class CameraKit : RentalItem
 
     }
 
-    public void Display()
+    public abstract void Display();
+
+}
+
+public interface IRentable
+{
+    void Display();
+}
+
+public class CameraKit : RentalItem, IRentable
+{
+    // public CameraKit()
+    // {
+    //     Console.WriteLine("CameraKit instance created.\n");
+
+    // }
+
+    public CameraKit(string brand, string model, double dailyRate) : base(brand, model, dailyRate)
+    {
+        if (string.IsNullOrEmpty(brand) || (string.IsNullOrEmpty(model)) || (dailyRate <= 0))
+        {
+            throw new ArgumentException("Invalid parameters for CameraKit constructor.");
+
+        }
+
+    }
+
+    public override void Display()
     {
         Console.WriteLine("\nCameraKit Display Called\n");
         Console.WriteLine(new string('*', 40));
